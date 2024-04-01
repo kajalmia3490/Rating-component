@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: serif;
+  box-sizing: border-box;
+}
+
+html {
+  text-align: center;
+}
+
+.container {
+  color: var(--colorText);
+  border: 1px solid gray;
+  width: 300px;
+  margin: 50px auto;
+  padding: 17px 26px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: none;
+  background-color: rgb(2, 33, 73);
+}
+
+.heading {
+  font-family: monospace;
+  font-weight: 300;
+}
